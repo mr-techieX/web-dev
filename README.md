@@ -1,5 +1,29 @@
 # Web Development
 
+## lang
+
+We should alwyas include the lang attribute inside the html tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
+```
+
+Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.
+
+```html
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+```
+
 ## Style
 
 "style" attribute is used for styling HTML elements
@@ -111,3 +135,9 @@ A header element typically contains:
 
 - strong => The strong element defines some important text in the document.
 
+### Attributes
+
+- All HTML elements can have attributes.
+- Attributes provide additional information about elements.
+- Attributes are always specified in the start tag.
+- Attributes ususally come in name/value pairs like: name = "value".

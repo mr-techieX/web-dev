@@ -67,18 +67,18 @@ alt is the field which will be displayed when there is some issue due which the 
 
 Semantic Tags: In HTML, there are some semantic elements that can be used to define different parts of a web page
 
-- <article> => The article element specifies independent, self-contained content.
+- "<article>" => The article element specifies independent, self-contained content.
 
-- <aside> => The aside element defines some content aside from the content it is placed in (like a sidebar).
+- "<aside>" => The aside element defines some content aside from the content it is placed in (like a sidebar).
 The aside content should be indirectly related to the surrounding content.
 
-- <details> => The details element defines additional details that the user can view or hide.
+- "<details>" => The details element defines additional details that the user can view or hide.
 
-- <figcaption> => Th figcaption tag defines a captino for a figure element. The figcaption element can be placed as the first or as the last child of a figure element.
+- "<figcaption>" => Th figcaption tag defines a captino for a figure element. The figcaption element can be placed as the first or as the last child of a figure element.
 
-- <figure> => The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+- "<figure>" => The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
 
-- <footer> => The footer element defines a footer for a documnet or section.
+- "<footer>" => The footer element defines a footer for a documnet or section.
 A footer  element typically contains:
   - authorship information
   - copyright information
@@ -87,25 +87,25 @@ A footer  element typically contains:
   - back to top links
   - related documents
 
-- <header> => The header element represents a container for indtroductory content or a set of navigational links.
+- "<header>" => The header element represents a container for indtroductory content or a set of navigational links.
 A header element typically contains:
-  - one or more heading elements (<h1>-<h6>) 
+  - one or more heading elements ("<h1>"-"<h6>") 
   - logo or icon
   - authorship information
 
-- <main> => The main element specifies the main content of a document.
+- "<main>" => The main element specifies the main content of a document.
 
-- <mark> => The mark element defines marked/highlighted text.
+- "<mark>" => The mark element defines marked/highlighted text.
 
-- <nav> => The nav element defines a set of navigation links.
+- "<nav>" => The nav element defines a set of navigation links.
 
-- <section> => The section element defines a section in a document
+- "<section>" => The section element defines a section in a document
 
-- <summary> => The summary element defines a visible heading for a <details> element.
+- "<summary>" => The summary element defines a visible heading for a "<details>" element.
 
-- <time> => The time element defines a date/time.
+- "<time>" => The time element defines a date/time.
 
-- <em> => The em element emphasizes some text.
+- "<em>" => The em element emphasizes some text.
 
-- <strong> => The strong element defines some important text in the document.
+- "<strong>" => The strong element defines some important text in the document.
 

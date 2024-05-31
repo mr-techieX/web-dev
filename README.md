@@ -1,6 +1,8 @@
 # Web Development
 
-## lang
+## HTML
+
+### lang
 
 We should alwyas include the lang attribute inside the html tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
 
@@ -24,7 +26,7 @@ Country codes can also be added to the language code in the lang attribute. So, 
 </html>
 ```
 
-## Style
+### Style
 
 "style" attribute is used for styling HTML elements
 
@@ -34,11 +36,15 @@ Country codes can also be added to the language code in the lang attribute. So, 
 - font-size => for text sizes
 - text-align => for text alignment
 
-## hr tag
+```html
+<p style = "background-color: blue; color: white; font-family: sans-serif; font-size: 16px; text-align: center; ">Frontend</p>
+```
+
+### hr tag
 
 "hr" tag is known as horizontal rule tag, used to give horizontal line in the website
 
-## HTML Text Formatting Inline Elements
+### HTML Text Formatting Inline Elements
 
 - b => bold text
 - strong => important text
@@ -51,16 +57,16 @@ Country codes can also be added to the language code in the lang attribute. So, 
 - sub => subscript text
 - sup => superscript text
 
-## Anchor tag
+### Anchor tag
 
 "a" tag is used to add some hyperlinks to the html file
 
-## Image tag
+### Image tag
 
 "img" tag is used to add images to the html file
 alt is the field which will be displayed when there is some issue due which the website cannot load the image
 
-## Lists
+### Lists
 
 - Unordered List
 
@@ -74,7 +80,7 @@ alt is the field which will be displayed when there is some issue due which the 
 
 "br" tag is used to give line break
 
-## HTML Entities
+### HTML Entities
 
 - &nbsp; => non-breaking space (&nbsp)
 - &lt; => less than (&lt)
@@ -89,7 +95,7 @@ alt is the field which will be displayed when there is some issue due which the 
 - &copy; => copyright (&copy)
 - &reg; => trademark (&reg)
 
-## Semantic Tags
+### Semantic Tags
 
 Semantic Tags: In HTML, there are some semantic elements that can be used to define different parts of a web page
 

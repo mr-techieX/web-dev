@@ -9,9 +9,9 @@ We should alwyas include the lang attribute inside the html tag, to declare the 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<body>
-...
-</body>
+  <body>
+    ...
+  </body>
 </html>
 ```
 
@@ -20,9 +20,9 @@ Country codes can also be added to the language code in the lang attribute. So, 
 ```html
 <!DOCTYPE html>
 <html lang="en-US">
-<body>
-...
-</body>
+  <body>
+    ...
+  </body>
 </html>
 ```
 
@@ -37,12 +37,20 @@ Country codes can also be added to the language code in the lang attribute. So, 
 - text-align => for text alignment
 
 ```html
-<p style = "background-color: blue; color: white; font-family: sans-serif; font-size: 16px; text-align: center; ">Frontend</p>
+<p
+  style="background-color: blue; color: white; font-family: sans-serif; font-size: 16px; text-align: center; "
+>
+  Frontend
+</p>
 ```
 
 ### hr tag
 
 "hr" tag is known as horizontal rule tag, used to give horizontal line in the website
+
+```html
+<hr />
+```
 
 ### HTML Text Formatting Inline Elements
 
@@ -57,14 +65,67 @@ Country codes can also be added to the language code in the lang attribute. So, 
 - sub => subscript text
 - sup => superscript text
 
+```html
+<!-- for bold text -->
+<b>Hello World!</b>
+
+<!-- for important text -->
+<strong>Hello World!</strong>
+
+<!-- for italic text -->
+<i>Hello World!</i>
+
+<!-- for emphasized text -->
+<em>Hello World!</em>
+
+<!-- for marked/highlighted text -->
+<mark>Hello World!</mark>
+
+<!-- for small text -->
+<small>Hello World!</small>
+
+<!-- for deleted text -->
+<del>Hello World!</del>
+
+<!-- for inserted text -->
+<ins>Hello World!</ins>
+
+<!-- for subscript text -->
+<sub>Hello World!</sub>
+
+<!-- for superscript text -->
+<sup>Hello World!</sup>
+```
+
 ### Anchor tag
 
 "a" tag is used to add some hyperlinks to the html file
+
+```html
+<a target="_blank" href="https://en.wikipedia.org/wiki/HTML" title="HTML"
+  >HTML</a
+>
+```
+
+- target attribute is used to open the link in a new tab on default.
+- href attribute is used to provide the actual url link.
+- title attribute is used to provide the tooltip information of the hyperlink text.
 
 ### Image tag
 
 "img" tag is used to add images to the html file
 alt is the field which will be displayed when there is some issue due which the website cannot load the image
+
+```html
+<img
+  src="/assets/images/css.png"
+  alt="html-css-javascript"
+  style="width: 100%; max-width: 600px"
+  title="CSS"
+/>
+
+<!-- Change the  src attribute with the original location of the image. -->
+```
 
 ### Lists
 
@@ -72,28 +133,66 @@ alt is the field which will be displayed when there is some issue due which the 
 
 "ul" tag is known as the Unordered List tag. This tag is used to list out things with bullets
 
+```html
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+```
+
+
+
 - Ordered List
 
 "ol" tag is known as the Ordered List tag. This tag is used to list out things with numbers
 
-## Linebreak
+### Linebreak
 
 "br" tag is used to give line break
 
+```html
+<br>
+```
+
 ### HTML Entities
 
-- &nbsp; => non-breaking space (&nbsp)
-- &lt; => less than (&lt)
-- &gt; => greater than (&gt)
-- &amp; => ampersand (&amp)
-- &quot; => double quotation mark (&quot)
-- &apos; => single quotation mark (&apos)
-- &cent; => cent (&cent)
-- &pound; => pound (&pound)
-- &yen; => yen (&yen)
-- &euro; => euro (&euro)
-- &copy; => copyright (&copy)
-- &reg; => trademark (&reg)
+- &nbsp; => non-breaking space
+- &lt; => less than
+- &gt; => greater than
+- &amp; => ampersand
+- &quot; => double quotation mark
+- &apos; => single quotation mark
+- &cent; => cent
+- &pound; => pound
+- &yen; => yen
+- &euro; => euro
+- &copy; => copyright
+- &reg; => trademark
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>HTML Entity Example</h1>
+
+<h2>A space character: &nbsp;</h2>
+<h2>A less than character: &lt;</h2>
+<h2>A greater than character: &gt;</h2>
+<h2>A ampersand character: &amp;</h2>
+<h2>A double quotation mark: &quot;</h2>
+<h2>A single quotation mark: &apos;</h2>
+<h2>A cent character: &cent;</h2>
+<h2>A pound character: &pound;</h2>
+<h2>A yen character: &yen;</h2>
+<h2>A euro character: &euro;</h2>
+<h2>A copyright character: &copy;</h2>
+<h2>A trademark character: &reg;</h2>
+
+</body>
+</html>
+```
 
 ### Semantic Tags
 
@@ -102,7 +201,7 @@ Semantic Tags: In HTML, there are some semantic elements that can be used to def
 - article => The article element specifies independent, self-contained content.
 
 - aside => The aside element defines some content aside from the content it is placed in (like a sidebar).
-The aside content should be indirectly related to the surrounding content.
+  The aside content should be indirectly related to the surrounding content.
 
 - details => The details element defines additional details that the user can view or hide.
 
@@ -111,7 +210,8 @@ The aside content should be indirectly related to the surrounding content.
 - figure => The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
 
 - footer => The footer element defines a footer for a documnet or section.
-A footer  element typically contains:
+  A footer element typically contains:
+
   - authorship information
   - copyright information
   - contact information
@@ -120,8 +220,9 @@ A footer  element typically contains:
   - related documents
 
 - header => The header element represents a container for indtroductory content or a set of navigational links.
-A header element typically contains:
-  - one or more heading elements (h1 - h6) 
+  A header element typically contains:
+
+  - one or more heading elements (h1 - h6)
   - logo or icon
   - authorship information
 

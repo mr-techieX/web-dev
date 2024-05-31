@@ -4,7 +4,7 @@
 
 ### lang
 
-We should alwyas include the lang attribute inside the html tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+We should alwyas include the `lang` attribute inside the html tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
 
 ```html
 <!DOCTYPE html>
@@ -28,13 +28,13 @@ Country codes can also be added to the language code in the lang attribute. So, 
 
 ### Style
 
-"style" attribute is used for styling HTML elements
+`style` attribute is used for styling HTML elements
 
-- backgroud-color => for background color
-- color => for text color
-- font-family => for text fonts
-- font-size => for text sizes
-- text-align => for text alignment
+- `backgroud-color` => for background color
+- `color` => for text color
+- `font-family` => for text fonts
+- `font-size` => for text sizes
+- `text-align` => for text alignment
 
 ```html
 <p
@@ -46,7 +46,7 @@ Country codes can also be added to the language code in the lang attribute. So, 
 
 ### hr tag
 
-"hr" tag is known as horizontal rule tag, used to give horizontal line in the website
+`hr` tag is known as horizontal rule tag, used to give horizontal line in the website
 
 ```html
 <hr />
@@ -54,16 +54,16 @@ Country codes can also be added to the language code in the lang attribute. So, 
 
 ### HTML Text Formatting Inline Elements
 
-- b => bold text
-- strong => important text
-- i => italic text
-- em => emphasized text
-- mark => marked text
-- small => smaller text
-- del => deleted text
-- ins => inserted text
-- sub => subscript text
-- sup => superscript text
+- `b` => bold text
+- `strong` => important text
+- `i` => italic text
+- `em` => emphasized text
+- `mark` => marked text
+- `small` => smaller text
+- `del` => deleted text
+- `ins` => inserted text
+- `sub` => subscript text
+- `sup` => superscript text
 
 ```html
 <!-- for bold text -->
@@ -99,7 +99,7 @@ Country codes can also be added to the language code in the lang attribute. So, 
 
 ### Anchor tag
 
-"a" tag is used to add some hyperlinks to the html file
+`a` tag is used to add some hyperlinks to the html file
 
 ```html
 <a target="_blank" href="https://en.wikipedia.org/wiki/HTML" title="HTML"
@@ -113,8 +113,8 @@ Country codes can also be added to the language code in the lang attribute. So, 
 
 ### Image tag
 
-"img" tag is used to add images to the html file
-alt is the field which will be displayed when there is some issue due which the website cannot load the image
+`img` tag is used to add images to the html file
+`alt` is the field which will be displayed when there is some issue due which the website cannot load the image
 
 ```html
 <img
@@ -131,7 +131,7 @@ alt is the field which will be displayed when there is some issue due which the 
 
 - Unordered List
 
-"ul" tag is known as the Unordered List tag. This tag is used to list out things with bullets
+`ul` tag is known as the Unordered List tag. This tag is used to list out things with bullets
 
 ```html
 <ul>
@@ -141,14 +141,14 @@ alt is the field which will be displayed when there is some issue due which the 
 </ul>
 ```
 
-- The CSS list-style-type property is used to define the style of the list item marker. It can have one of the following values:
+- The CSS `list-style-type` property is used to define the style of the list item marker. It can have one of the following values:
 
 |  Value   | Description                                   |
 | :------: | :-------------------------------------------- |
 |  `disc`  | Sets the list item marker to bullet (default) |
 | `circle` | Sets the list item marker to a circle         |
 | `square` | Sets the list item marker to a square         |
-|   none   | The list items will not be marked             |
+|   `none`   | The list items will not be marked             |
 
 ```html
 <ul style="list-style-type: disc;">
@@ -176,7 +176,7 @@ alt is the field which will be displayed when there is some issue due which the 
 
 - Ordered List
 
-"ol" tag is known as the Ordered List tag. This tag is used to list out things with numbers.
+`ol` tag is known as the Ordered List tag. This tag is used to list out things with numbers.
 
 The list items are marked with numbers by default.
 
@@ -188,7 +188,7 @@ The list items are marked with numbers by default.
 </ol>
 ```
 
-- The type attribute of the ordered list tag, defines the type of the list item marker:
+- The `type` attribute of the ordered list tag, defines the type of the list item marker:
 
 |     Type     | Description                                            |
 | :----------: | :----------------------------------------------------- |
@@ -220,7 +220,7 @@ By default, an ordered list will start counting from 1. If you want to start cou
 
 ### Linebreak
 
-"br" tag is used to give line break
+`br` tag is used to give line break
 
 ```html
 <br />

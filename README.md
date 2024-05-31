@@ -148,7 +148,7 @@ Country codes can also be added to the language code in the lang attribute. So, 
 |  `disc`  | Sets the list item marker to bullet (default) |
 | `circle` | Sets the list item marker to a circle         |
 | `square` | Sets the list item marker to a square         |
-|   `none`   | The list items will not be marked             |
+|  `none`  | The list items will not be marked             |
 
 ```html
 <ul style="list-style-type: disc;">
@@ -267,20 +267,20 @@ By default, an ordered list will start counting from 1. If you want to start cou
 
 Semantic Tags: In HTML, there are some semantic elements that can be used to define different parts of a web page
 
-- article => The article element specifies independent, self-contained content.
+- `article` => The `article` element specifies independent, self-contained content.
 
-- aside => The aside element defines some content aside from the content it is placed in (like a sidebar).
-  The aside content should be indirectly related to the surrounding content.
+- `aside` => The `aside` element defines some content aside from the content it is placed in (like a sidebar).
+  The `aside` content should be indirectly related to the surrounding content.
 
-- details => The details element defines additional details that the user can view or hide.
+- `details` => The `details` element defines additional details that the user can view or hide.
 
-- figcaption => Th figcaption tag defines a captino for a figure element. The figcaption element can be placed as the first or as the last child of a figure element.
+- `figcaption` => Th `figcaption` tag defines a captino for a `figure` element. The `figcaption` element can be placed as the first or as the last child of a `figure` element.
 
-- figure => The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+- `figure` => The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
 
-- footer => The footer element defines a footer for a documnet or section.
-  A footer element typically contains:
-
+- `footer` => The `footer` element defines a footer for a documnet or section.
+  
+  A `footer` element typically contains:
   - authorship information
   - copyright information
   - contact information
@@ -288,28 +288,28 @@ Semantic Tags: In HTML, there are some semantic elements that can be used to def
   - back to top links
   - related documents
 
-- header => The header element represents a container for indtroductory content or a set of navigational links.
-  A header element typically contains:
-
+- `header` => The `header` element represents a container for indtroductory content or a set of navigational links.
+  
+  A `header` element typically contains:
   - one or more heading elements (h1 - h6)
   - logo or icon
   - authorship information
 
-- main => The main element specifies the main content of a document.
+- `main` => The `main` element specifies the main content of a document.
 
-- mark => The mark element defines marked/highlighted text.
+- `mark` => The `mark` element defines marked/highlighted text.
 
-- nav => The nav element defines a set of navigation links.
+- `nav` => The `nav` element defines a set of navigation links.
 
-- section => The section element defines a section in a document
+- `section` => The `section` element defines a section in a document
 
-- summary => The summary element defines a visible heading for a details element.
+- `summary` => The `summary` element defines a visible heading for a details element.
 
-- time => The time element defines a date/time.
+- `time` => The `time` element defines a date/time.
 
-- em => The em element emphasizes some text.
+- `em` => The `em` element emphasizes some text.
 
-- strong => The strong element defines some important text in the document.
+- `strong` => The `strong` element defines some important text in the document.
 
 ### Attributes
 
@@ -317,3 +317,26 @@ Semantic Tags: In HTML, there are some semantic elements that can be used to def
 - Attributes provide additional information about elements.
 - Attributes are always specified in the start tag.
 - Attributes ususally come in name/value pairs like: name = "value".
+- The Global attributes are attributes that can be used with all HTML elements:
+
+|     Attribute     | Description                                                                          |
+| :---------------: | :----------------------------------------------------------------------------------- |
+|    `accesskey`    | Specifies a shortcut key to activate/focus an element                                |
+|      `class`      | Specifies one or more classnames for an element (refers to a class in a style sheet) |
+| `contenteditable` | Specifies whether the content of an element is editable or not                       |
+|     `data-*`      | Used to store custom data private to the page or application                         |
+|       `dir`       | Specifies the text direction for the content in an element                           |
+|    `draggable`    | Specifies whether an element is draggable or not                                     |
+|  `enterkeyhint`   | Specifies the text of the enter-key on a virtual keyboard                            |
+|     `hidden`      | Specifies that an element is not yet, or is no longer, relevant                      |
+|       `id`        | Specifies a unique id for an element                                                 |
+|      `inert`      | Specifies that the browser should ignore this section                                |
+|    `inputmode`    | Specifies the mode of a virtual keyboard                                             |
+|      `lang`       | Specifies the language of the element's content                                      |
+|     `popover`     | Specifies a popover element                                                          |
+|   `spellcheck`    | Specifies whether the element is to have its spelling and grammer checked or not     |
+|      `style`      | Specifies an inline CSS style for an element                                         |
+|    `tabindex`     | Specifies the tabbing order of an element                                            |
+|      `title`      | Specifies extra information about an element                                         |
+|    `translate`    | Specifies whether the content of an element should be translated or not              |
+

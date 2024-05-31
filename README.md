@@ -143,12 +143,12 @@ alt is the field which will be displayed when there is some issue due which the 
 
 - The CSS list-style-type property is used to define the style of the list item marker. It can have one of the following values:
 
-| Value  | Description                                   |
-| :----: | :-------------------------------------------- |
-|  disc  | Sets the list item marker to bullet (default) |
-| circle | Sets the list item marker to a circle         |
-| square | Sets the list item marker to a square         |
-|  none  | The list items will not be marked             |
+|  Value   | Description                                   |
+| :------: | :-------------------------------------------- |
+|  `disc`  | Sets the list item marker to bullet (default) |
+| `circle` | Sets the list item marker to a circle         |
+| `square` | Sets the list item marker to a square         |
+|   none   | The list items will not be marked             |
 
 ```html
 <ul style="list-style-type: disc;">
@@ -190,13 +190,13 @@ The list items are marked with numbers by default.
 
 - The type attribute of the ordered list tag, defines the type of the list item marker:
 
-|    Type    | Description                                            |
-| :--------: | :----------------------------------------------------- |
-| type = "1" | The list will be numbered with numbers (default)       |
-| type = "A" | The list will be numbered with uppercase letters       |
-| type = "a" | The list will be numbered with lowercase letters       |
-| type = "I" | The list will be numbered with uppercase roman numbers |
-| type = "i" | The list will be numbered with lowercase roma numbers  |
+|     Type     | Description                                            |
+| :----------: | :----------------------------------------------------- |
+| `type = "1"` | The list will be numbered with numbers (default)       |
+| `type = "A"` | The list will be numbered with uppercase letters       |
+| `type = "a"` | The list will be numbered with lowercase letters       |
+| `type = "I"` | The list will be numbered with uppercase roman numbers |
+| `type = "i"` | The list will be numbered with lowercase roma numbers  |
 
 ```html
 <ol type="1">
@@ -208,7 +208,7 @@ The list items are marked with numbers by default.
 
 - Control List Counting
 
-By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the 'start' attribute:
+By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the `start` attribute:
 
 ```html
 <ol start="10">

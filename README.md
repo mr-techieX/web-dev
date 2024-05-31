@@ -141,18 +141,89 @@ alt is the field which will be displayed when there is some issue due which the 
 </ul>
 ```
 
+- The CSS list-style-type property is used to define the style of the list item marker. It can have one of the following values:
 
+| Value  | Description                                   |
+| :----: | :-------------------------------------------- |
+|  disc  | Sets the list item marker to bullet (default) |
+| circle | Sets the list item marker to a circle         |
+| square | Sets the list item marker to a square         |
+|  none  | The list items will not be marked             |
+
+```html
+<ul style="list-style-type: disc;">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+```
+
+- Nested HTML lists
+
+```html
+<ul>
+  <li>HTML</li>
+  <li>
+    CSS
+    <ul>
+      <li>Inline CSS</li>
+      <li>Separate CSS</li>
+    </ul>
+  </li>
+  <li>JavaScript</li>
+</ul>
+```
 
 - Ordered List
 
-"ol" tag is known as the Ordered List tag. This tag is used to list out things with numbers
+"ol" tag is known as the Ordered List tag. This tag is used to list out things with numbers.
+
+The list items are marked with numbers by default.
+
+```html
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+```
+
+- The type attribute of the ordered list tag, defines the type of the list item marker:
+
+|    Type    | Description                                            |
+| :--------: | :----------------------------------------------------- |
+| type = "1" | The list will be numbered with numbers (default)       |
+| type = "A" | The list will be numbered with uppercase letters       |
+| type = "a" | The list will be numbered with lowercase letters       |
+| type = "I" | The list will be numbered with uppercase roman numbers |
+| type = "i" | The list will be numbered with lowercase roma numbers  |
+
+```html
+<ol type="1">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+```
+
+- Control List Counting
+
+By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the 'start' attribute:
+
+```html
+<ol start="10">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+```
 
 ### Linebreak
 
 "br" tag is used to give line break
 
 ```html
-<br>
+<br />
 ```
 
 ### HTML Entities
@@ -173,24 +244,22 @@ alt is the field which will be displayed when there is some issue due which the 
 ```html
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
+    <h1>HTML Entity Example</h1>
 
-<h1>HTML Entity Example</h1>
-
-<h2>A space character: &nbsp;</h2>
-<h2>A less than character: &lt;</h2>
-<h2>A greater than character: &gt;</h2>
-<h2>A ampersand character: &amp;</h2>
-<h2>A double quotation mark: &quot;</h2>
-<h2>A single quotation mark: &apos;</h2>
-<h2>A cent character: &cent;</h2>
-<h2>A pound character: &pound;</h2>
-<h2>A yen character: &yen;</h2>
-<h2>A euro character: &euro;</h2>
-<h2>A copyright character: &copy;</h2>
-<h2>A trademark character: &reg;</h2>
-
-</body>
+    <h2>A space character: &nbsp;</h2>
+    <h2>A less than character: &lt;</h2>
+    <h2>A greater than character: &gt;</h2>
+    <h2>A ampersand character: &amp;</h2>
+    <h2>A double quotation mark: &quot;</h2>
+    <h2>A single quotation mark: &apos;</h2>
+    <h2>A cent character: &cent;</h2>
+    <h2>A pound character: &pound;</h2>
+    <h2>A yen character: &yen;</h2>
+    <h2>A euro character: &euro;</h2>
+    <h2>A copyright character: &copy;</h2>
+    <h2>A trademark character: &reg;</h2>
+  </body>
 </html>
 ```
 
